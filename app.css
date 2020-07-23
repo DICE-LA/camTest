@@ -1,0 +1,17 @@
+.appmas{
+width:370px;
+margin:0 auto;
+background-color:#111;
+}
+.items{
+margin:auto;
+text-align: center;
+}
+
+#Status{
+  border:2px solid #ddd;
+  background-color: #999;
+  margin: 20px auto;
+  width:200px;
+  padding: 0px 5px;
+}
