@@ -74,7 +74,7 @@
     };
 
     function onStart() {
-          navigator.mediaDevices.getUserMedia({video:true, audio: false})
+          navigator.mediaDevices.getUserMedia({video:{ facingMode: { exact: "environment" } }, audio: false})
           .then((_stream)=>{
             console.log('On Start : Success');
 
