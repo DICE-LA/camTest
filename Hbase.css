@@ -1,0 +1,22 @@
+header {
+  background-color: #00FFFF
+}
+footer {
+  background-color: #FFFF00
+}
+body {
+  background-color: #10100E
+}
+.contents {
+  width: 300px;
+  background-color: #555555;
+  margin-right:auto;
+  margin-left:auto;
+}
+#Home *{
+  text-align: center;
+}
+#Canvas {
+  width: 100%;
+  background: #9EE;
+}
