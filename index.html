@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html>
 <head>
-<meta charset="UTF-8">
-  <title>LA迷彩解読</title>
+  <title>こんぶ</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Hbase.css" type="text/css">
+  <link rel="stylesheet" href="Helem.css" type="text/css">
 </head>
-
-<body style="background-color: #000;">
-  <h1 style="background-color:#f00; color:#fff;>Not function</h1>
+<header>
+  <p>header is here</p>
+</header>
+<body>
+  <div class="contents" id="Home">
+    <h1>こ ん ぶ</h1>
+    <h2>-art-</h2>
+    <div><input type="button" id="Start" value="写真選択" onclick="document.getElementById('Input').click();" disabled/></div>
+    <input type="file" style="display:none;" id="Input" name="srcPath" accept="image/png, image/jpeg"/>
+  </div>
+  <div class="contents" id="Conv">
+    <img id="SrcImg" width="100%" height="auto" style="display:none"/>
+    <canvas id="Canvas" width="100%" height="auto"></canvas>
+    <button id="ToHome" type="button" disabled>Home</button>
+  </div>
+  <script src="./js/opencv.js" async type="text/javascript"></script>
+  <script src="./js/home.js" async type="text/javascript"></script>
 </body>
-
+<footer>
+  <p>リンク表示</p>
+</footer>
 </html>
